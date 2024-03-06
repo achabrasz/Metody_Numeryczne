@@ -1,0 +1,14 @@
+function [numer_indeksu, Edges, I, B, A, b, r] = page_rank()
+numer_indeksu = 193373;
+L1 = 7;
+L2 = 3;
+kol = [1,2,3,4,5,6,7,8]
+Edges = [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 6, 6, 7, 8;
+         4, 6, 3, 4, 5, 5, 6, 7, 5, 6, 8, 4, 6, 4, 7, 6, 1];
+I = speye(8);
+B = sparse(Edges(2,:), Edges(1,:), 1, size(Edges(2,:)), size(Edges(2,:)));
+A = spdiags(sum(B).^-1, 0, size(Edges(2,:)), size(Edges(2,:)));
+b = [];
+r = [];
+
+end
