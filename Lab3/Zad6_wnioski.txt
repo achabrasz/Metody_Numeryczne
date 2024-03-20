@@ -1,0 +1,17 @@
+Normy bledu rezydualnego dla poszczegolnych metod:
+1) Metoda bezposrednia: 7 * 10^-13
+Metoda bezposrednia ma najmniejsza wartosc normy bledu rezydualnego.
+
+2) Metoda Gaussa_Seidela: 6.43 * 10^10 (ostatnia zmierzona wartosc)
+Wartosci bledu rezydualnego dla metody Gaussa maleja dla pierwszych iteracji, nastepnie staja sie rozbiezne,
+a w okolicach 800 iteracji zaczynaja nabierac bardzo wysokiego tempa wzrostu.
+
+3) Metoda Jacobiego: 1.26 * 10^308 (ostatnia zmierzona wartosc rzeczywista)
+W przeciwienstwie do metody Gaussa, metoda Jacobiego juz od pierwszych iteracji osiaga wysokie
+wartosci normy bledu rezydualnego i rozbiegaja sie, a w okolicach 600 iteracji osiaga wartosci
+wykraczajace poza mozliwosci sprzetowe.
+
+Wnioski:
+Dla bardzo duzych macierzy, metody Gaussa oraz Jacobiego staja sie rozbiezne, a co za tym idzie,
+bardziej nieprecyzyjne (metoda Jacobiego duzo szybciej i duzo bardziej od Gaussa), dlatego przy obliczeniach
+na wiekszych macierzach zalecalbym uzycie metody bezposredniej.
