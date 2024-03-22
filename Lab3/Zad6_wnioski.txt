@@ -13,5 +13,5 @@ wykraczajace poza mozliwosci sprzetowe.
 
 Wnioski:
 Dla bardzo duzych macierzy, metody Gaussa oraz Jacobiego staja sie rozbiezne, a co za tym idzie,
-bardziej nieprecyzyjne (metoda Jacobiego duzo szybciej i duzo bardziej od Gaussa), dlatego przy obliczeniach
-na wiekszych macierzach zalecalbym uzycie metody bezposredniej.
+bardziej nieprecyzyjne (metoda Jacobiego duzo szybciej i duzo bardziej od Gaussa) co jest związane z uwarunkowaniem macierzy, dlatego przy obliczeniach
+na macierzach mniej uporządkowanych zalecalbym uzycie metody bezposredniej, a nie metod iteracyjnych.
