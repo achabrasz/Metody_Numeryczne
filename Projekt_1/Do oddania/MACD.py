@@ -142,6 +142,20 @@ plt.grid(True)
 plt.savefig('transactions.jpg')
 plt.show()
 
+plt.figure(figsize=(10, 6))
+plt.plot(price[600:800], label='Cena zamknięcia', color='black')
+for i in range(600, 800):
+    if signals[i] == 'BUY':
+        plt.scatter(i, price.iloc[i], marker='^', color='green', s=50, label='Buy', zorder=3)
+    elif signals[i] == 'SELL':
+        plt.scatter(i, price.iloc[i], marker='v', color='red', s=50, label='Sell', zorder=3)
+plt.title('Przyblizone transakcje kupna/sprzedaży na podstawie MACD i Signal')
+plt.xlabel('Dzien')
+plt.ylabel('Cena zamknięcia')
+plt.grid(True)
+plt.savefig('transactions_mini.jpg')
+plt.show()
+
 
 plt.figure(figsize=(10, 6))
 plt.plot(budget_history)
@@ -152,6 +166,23 @@ plt.grid(True)
 plt.savefig('budget_history.jpg')
 plt.show()
 
+plt.figure(figsize=(10, 6))
+plt.plot(budget_history[600:800])
+plt.title('Historia Wartosci Portfolio')
+plt.xlabel('Dzien')
+plt.ylabel('Wartosc')
+plt.grid(True)
+plt.savefig('budget_history_mini.jpg')
+plt.show()
+
+plt.figure(figsize=(10, 6))
+plt.plot(budget_history[400:600])
+plt.title('Historia Wartosci Portfolio')
+plt.xlabel('Dzien')
+plt.ylabel('Wartosc')
+plt.grid(True)
+plt.savefig('budget_history_mini2.jpg')
+plt.show()
 
 print("Poczatkowa liczba akcji: ", stocks_starting)
 print("Poczatkowa wartosc akcji: ", starting_working_capital)
