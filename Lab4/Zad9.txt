@@ -1,4 +1,2 @@
-Funkcja fzero jest bardzo szybko metoda znajdowania miejsc zerowych, bo jest w stanie znalesc rezultat
-w zaledwie kilku iteracjach. Jednak jak widać na przykladzie funkcji tangensa, nie jest ona zawsze skuteczna.
-O ile dla punktu startowego równego 6, była w stanie znalesc poprawny rezultat, to dla punktu startowego 4.5,
-znalazla punkt osobliwy.
+Funkcja fzero potrafi być zarówno szybka jak i skuteczna metoda znajdowania miejsc zerowych funkcji w zaledwie kilku iteracjach, jak widać na przykładzie wywołania z punktem startowym równym 6. 
+Natomiast dla wywołania z punktem startowym równym 4.5, funkcja fzero niedość ze nie znalazła miejsca poprawnego miejsca zerowego, tylko punkt osobliwy, to jeszcze zajęło jej to prawie 70 iteracji.
