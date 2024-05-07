@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Projekt_2_Macierze", "Projekt_2_Macierze.vcxproj", "{F6244ED1-843E-49BA-B233-15ED541558FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6244ED1-843E-49BA-B233-15ED541558FE}.Debug|x64.ActiveCfg = Debug|x64
+		{F6244ED1-843E-49BA-B233-15ED541558FE}.Debug|x64.Build.0 = Debug|x64
+		{F6244ED1-843E-49BA-B233-15ED541558FE}.Debug|x86.ActiveCfg = Debug|Win32
+		{F6244ED1-843E-49BA-B233-15ED541558FE}.Debug|x86.Build.0 = Debug|Win32
+		{F6244ED1-843E-49BA-B233-15ED541558FE}.Release|x64.ActiveCfg = Release|x64
+		{F6244ED1-843E-49BA-B233-15ED541558FE}.Release|x64.Build.0 = Release|x64
+		{F6244ED1-843E-49BA-B233-15ED541558FE}.Release|x86.ActiveCfg = Release|Win32
+		{F6244ED1-843E-49BA-B233-15ED541558FE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {320A8750-5BA3-4430-AFCF-F46C60195DA3}
+	EndGlobalSection
+EndGlobal

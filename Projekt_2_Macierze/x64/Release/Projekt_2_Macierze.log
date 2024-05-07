@@ -1,0 +1,30 @@
+﻿  Main.cpp
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(66,28): warning C4244: '=': conversion from 'int' to '_Ty', possible loss of data
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(66,28): warning C4244:         with
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(66,28): warning C4244:         [
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(66,28): warning C4244:             _Ty=float
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(66,28): warning C4244:         ]
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(116,19): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(116,19): warning C4244:         with
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(116,19): warning C4244:         [
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(116,19): warning C4244:             _Ty=float
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(116,19): warning C4244:         ]
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(122,23): warning C4244: '=': conversion from 'int' to '_Ty', possible loss of data
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(122,23): warning C4244:         with
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(122,23): warning C4244:         [
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(122,23): warning C4244:             _Ty=float
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(122,23): warning C4244:         ]
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(296,13): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(304,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(304,13): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(304,9): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(325,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(360,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(360,14): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\Main.cpp(360,10): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating code
+  61 of 307 functions (19.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    8 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Projekt_2_Macierze.vcxproj -> C:\Users\Adam\Studia\4 semestr\Metody Numeryczne\Metody_Numeryczne\Projekt_2_Macierze\x64\Release\Projekt_2_Macierze.exe
