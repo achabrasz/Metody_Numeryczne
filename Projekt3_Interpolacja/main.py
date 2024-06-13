@@ -94,10 +94,10 @@ def main():
     y = data.iloc[:, 1]
     size = len(x)
 
-    nodes = spacing(False, size, 30)
+    nodes = spacing(False, size, 100)
     nodes_x, nodes_y = reformat_Nodes(nodes, data)
 
-    plt.title('Interpolation Cubic Spline - Tczew 30')
+    plt.title('Interpolation Cubic Spline - Tczew 100')
     #plt.title('Interpolation Lagrange Polynomial Tczew - 30')
     #plt.plot(x, LagrangePolynomial(x, nodes_x, nodes_y), color='red')
     plt.plot(cubic_spline_interpolation(nodes, nodes_x, nodes_y, x, y), color='red')
